@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>tugas my to do list</title>
+</head>
+<body>
+    <section> <div class="todo-wrapper">
+        <h2>My to-do list</h2>
+        <p>Double-click an item to mark it complete.</p>
+
+        <form name="todo-adder">
+            <input type="text" id="todo-entry-box" />
+        </form>
+        <button id="add-button" class="pretty-button">Add</button>
+        <br />
+        <ol id="todo-list">
+        </ol>
+        <div id="control-wrapper">
+            <button id="clear-completed-button" onclick="clearCompletedToDoItems()" class="pretty-button">Clear Completed</button>
+            <button id="empty-button" onclick="emptyList()"       class="pretty-button">Empty List</button>
+            <button id="save-button" onclick="saveList()" class="pretty-button">Save List</button>
+        </div>
+    </div>
+    </section>
+    <section>
+        <footer id="footer", class="border">
+            <p>pemilik : Hanif<br>
+            <a href="mailto:nhsnifvyy@gmail.com.com">nhanifvyy@gmail.com</a></p></footer>
+    </section>
+
+    <script src="assets/todoo.js"></script>
+
+</body>
+</html>
